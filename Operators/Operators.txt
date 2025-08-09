@@ -1,0 +1,140 @@
+Operators:
+
+Java provides a comprehensive set of operators to perform various operations on variables and values. These operators can be broadly categorized as follows:
+
+Arithmetic Operators:
+
+Used for performing mathematical calculations.
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus - remainder after division)
+
+Unary Operators:
+
+Operate on a single operand.
++ (Unary plus)
+- (Unary minus)
+++ (Increment)
+-- (Decrement)
+! (Logical NOT)
+
+Assignment Operators:
+
+Used to assign values to variables.
+= (Simple assignment)
++=, -=, *=, /=, %= (Compound assignment operators)
+
+Relational (Comparison) Operators:
+
+Used to compare two values and return a boolean result.
+== (Equal to)
+!= (Not equal to)
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+
+Logical Operators:
+
+Used to combine or modify boolean expressions.
+&& (Logical AND)
+|| (Logical OR)
+! (Logical NOT - also a unary operator)
+
+Bitwise Operators:
+
+Operate on individual bits of integer types.
+& (Bitwise AND)
+| (Bitwise OR)
+^ (Bitwise XOR)
+~ (Bitwise complement)
+
+Shift Operators:
+
+Used to shift bits to the left or right.
+<< (Signed left shift)
+>> (Signed right shift)
+>>> (Unsigned right shift)
+
+Ternary Operator (Conditional Operator):
+
+A shorthand for an if-then-else statement.
+condition ? expression1 : expression2
+
+instanceof Operator:
+Used to check if an object is an instance of a particular class or interface.
+
+The Simple Assignment Operator
+
+One of the most common operators that you'll encounter is the simple assignment operator "=". It assigns the value on its right to the operand on its left:
+
+ int cadence = 0;
+ int speed = 0;
+ int gear = 1;
+
+
+The Java programming language provides operators that perform addition, subtraction, multiplication, and division. There's a good chance you'll recognize them by their counterparts in basic mathematics. The only symbol that might look new to you is "%", which divides one operand by another and returns the remainder as its result.
+
+Operator	Description
++	Additive operator (also used for String concatenation)
+-	Subtraction operator
+*	Multiplication operator
+/	Division operator
+%	Remainder operator
+
+
+The Unary Operators:
+
+The unary operators require only one operand; they perform various operations such as incrementing/decrementing a value by one, negating an expression, or inverting the value of a boolean.
+
+
+Operator	Description
++	Unary plus operator; indicates positive value (numbers are positive without this, however)
+-	Unary minus operator; negates an expression
+++	Increment operator; increments a value by 1
+--	Decrement operator; decrements a value by 1
+!	Logical complement operator; inverts the value of a Boolean
+
+
+The only difference is that the prefix version (++result) evaluates to the incremented value, whereas the postfix version (result++) evaluates to the original value.
+
+
+
+Equality, Relational, and Conditional Operators :
+
+
+The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand. The majority of these operators will probably look familiar to you as well. Keep in mind that you must use "==", not "=", when testing if two primitive values are equal.
+
+==      equal to
+!=      not equal to
+>       greater than
+>=      greater than or equal to
+<       less than
+<=      less than or equal to
+
+
+
+The Conditional Operators
+
+&& Conditional-AND
+|| Conditional-OR
+
+
+Bitwise and Bit Shift Operators
+
+The Java programming language also provides operators that perform bitwise and bit shift operations on integral types. The operators discussed in this section are less commonly used. Therefore, their coverage is brief; the intent is to simply make you aware that these operators exist.
+
+The unary bitwise complement operator "~" inverts a bit pattern; it can be applied to any of the integral types, making every "0" a "1" and every "1" a "0". For example, a byte contains 8 bits; applying this operator to a value whose bit pattern is "00000000" would change its pattern to "11111111".
+
+The signed left shift operator "<<" shifts a bit pattern to the left, and the signed right shift operator ">>" shifts a bit pattern to the right. The bit pattern is given by the left-hand operand, and the number of positions to shift by the right-hand operand. The unsigned right shift operator ">>>" shifts a zero into the leftmost position, while the leftmost position after ">>" depends on sign extension.
+
+The bitwise & operator performs a bitwise AND operation.
+
+The bitwise ^ operator performs a bitwise exclusive OR operation.
+
+The bitwise | operator performs a bitwise inclusive OR operation.
+
+The following program, BitDemo, uses the bitwise AND operator to print the number "2" to standard output.
+
