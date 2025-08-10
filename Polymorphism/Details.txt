@@ -1,1 +1,5 @@
-
+- Polymorphism is a core concept in Object Oriented programming that allows methods to do different things based on the object it is acting upon, even though the method name and its signature might be the same.
+- One name many forms
+- 2 types of polymorphisms :
+  * Compile time polymorphism i.e. method overloading
+  * Runtime polymorphism i.e. method overriding
