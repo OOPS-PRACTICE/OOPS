@@ -1,6 +1,7 @@
 JDK,JRE and JVM
 Classes and Objects
 Primitive Types
+Type Casting
 Operators
 Arithmetic Operators
 Bitwise Operators
