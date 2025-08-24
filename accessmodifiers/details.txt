@@ -1,0 +1,19 @@
+The following table shows the access to members permitted by each modifier.
+
+Access Levels
+Modifier	  Class	  Package	  Subclass	  World
+public	      Y	      Y	         Y	        Y
+protected	    Y	      Y	         Y	        N
+no modifier	  Y	      Y	         N	        N
+private	      Y	      N	         N	        N
+
+
+
+Tips on Choosing an Access Level: 
+If other programmers use your class, you want to ensure that errors from misuse cannot happen. Access levels can help you do this.
+
+Use the most restrictive access level that makes sense for a particular member. Use private unless you have a good reason not to.
+Avoid public fields except for constants. (Many of the examples in the tutorial use public fields. This may help to illustrate some points concisely, but is not recommended for production code.) 
+Public fields tend to link you to a particular implementation and limit your flexibility in changing your code.
+
+Access Modifiers : Constructor, Class, Fields\Variables and Methods 
