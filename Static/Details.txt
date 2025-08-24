@@ -10,6 +10,7 @@ ClassName.methodName(args)
 Note: You can also refer to static methods with an object reference like
 instanceName.methodName(args)
 but this is discouraged because it does not make it clear that they are class methods.
+- If a subclass defines a static method with the same signature as a static method in the superclass, then the method in the subclass hides the one in the superclass.
 
 
 
