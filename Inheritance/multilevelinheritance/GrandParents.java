@@ -3,6 +3,10 @@ public class GrandParents {
     int age;
     String name;
 
+    public void test(){
+        System.out.println("In GrandParents");
+    }
+
 
     public void grandParentMethod(){
         System.out.println("In grand parent method");
