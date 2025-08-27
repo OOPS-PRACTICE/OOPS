@@ -11,6 +11,10 @@ public class Bicycle {
         System.out.println("I am static block");
     }
 
+    static {
+        System.out.println("I am in another static block");
+    }
+
     {
         gear = 11;
         System.out.println("I am another block");
