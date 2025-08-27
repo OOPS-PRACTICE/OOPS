@@ -15,6 +15,7 @@ public class Bicycle {
         System.out.println("I am in another static block");
     }
 
+    //For object variable initialization
     {
         gear = 11;
         System.out.println("I am another block");
