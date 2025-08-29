@@ -19,4 +19,4 @@ MultiLevel Inhetitance
 08/22 : Hierarchical Inheritance Examples, Method Overiding examples, Object Widening and Ploymorphism
 08/26 : Multi Level Inheritance, super, Object Widening, Access Modifiers, Method Overriding
 08/27 : Access Modifiers, Static, Static Blocks, Blocks, Abstraction
-08/29 : Abstraction with examples, 1D Arrays
+08/29 : Abstraction with examples, for each loop, 1D Arrays
