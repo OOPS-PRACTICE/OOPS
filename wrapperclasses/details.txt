@@ -1,1 +1,16 @@
+Wrapper classes allow primitive values to be treated as objects.Like
+byte -> Byte
+short -> Short
+int -> Integer
+long -> Long
+float -> Float
+double -> Double
+char -> Character
+boolean -> Boolean
+
+Since Java 5, the Java compiler automatically handles the conversion between primitive types and their corresponding wrapper objects. 
+Autoboxing : The automatic conversion of a primitive type to its corresponding wrapper class object (e.g., int to Integer).
+Unboxing : The automatic conversion of a wrapper class object to its corresponding primitive type (e.g., Integer to int).
+
+
 
