@@ -1,5 +1,6 @@
 An interface is the blueprint for a class
 An interface is having only abstract methods and static constants
+An interface achieves Multiple Inheritance and Abstraction
 An interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. Method bodies exist only for default methods and static methods. Interfaces cannot be instantiated—they can only be implemented by classes or extended by other interfaces. 
 Interfaces as APIs
 An interface declaration consists of modifiers, the keyword interface, the interface name, a comma-separated list of parent interfaces (if any), and the interface body. For example:
