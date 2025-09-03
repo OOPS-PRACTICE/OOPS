@@ -23,9 +23,14 @@ public class ArraysPractice {
         int[] intArray = {1,2,3};
 
         //arr[2], arr[3], arr[4] is having a default int value as we have not intialized it
+
         int[] arr = new int[5];
         arr[0] = 1;
         arr[1] = 2;
+
+        for(int abc : arr){
+
+        }
 
         char[] firstArr = new char[5];
         System.out.println("In Char Array   " + firstArr);
@@ -54,13 +59,13 @@ public class ArraysPractice {
         }
 
         //2D / Matrix
-
-        /*int [][] arr =  new int[3][4];
+        int[] secondIntArray = new int[10];
+        int [][] arr1 =  new int[3][4];
         int [][] arrys = {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}
-        };*/
+        };
 
         char arrChar[][] = new char[3][2];
         arrChar[0][0] = 1;
@@ -69,9 +74,12 @@ public class ArraysPractice {
 
 
         //Jagged Array : Array of Arrays of different length
-        char[][] arryas = new char[2][];
-        arryas[0] = new char[1];
-        arryas[1] = new char[2];
+        char[][] arryas = new char[5][];
+        arryas[0] = new char[4];
+        arryas[1] = new char[3];
+        arryas[2] = new char[4];
+        arryas[3] = new char[6];
+        arryas[4] = new char[5];
         arryas[0][0] = 'a';
         arryas[1][0] = 'b';
         arryas[1][1] = 'c';
