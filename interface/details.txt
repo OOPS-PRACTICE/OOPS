@@ -1,13 +1,14 @@
 An interface is the blueprint for a class
 An interface is having only abstract methods and static constants
 An interface achieves Multiple Inheritance and Abstraction
-An interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. Method bodies exist only for default methods and static methods. Interfaces cannot be instantiated—they can only be implemented by classes or extended by other interfaces. 
+All abstract, default, and static methods in an interface are implicitly public, so you can omit the public modifier.
+An abstract method within an interface is followed by a semicolon, but no braces (an abstract method does not contain an implementation).
+An interface is a reference type, similar to a class, that can contain only constants, method signatures(abstract methods), default methods, static methods, and nested types. Method bodies exist only for default methods and static methods. 
+Interfaces cannot be instantiated—they can only be implemented by classes or extended by other interfaces. 
 Interfaces as APIs
 An interface declaration consists of modifiers, the keyword interface, the interface name, a comma-separated list of parent interfaces (if any), and the interface body. For example:
 public interface GroupedInterface extends Interface1, Interface2, Interface3 { }
-
-The interface body can contain abstract methods, default methods, and static methods. An abstract method within an interface is followed by a semicolon, but no braces (an abstract method does not contain an implementation). Default methods are defined with the default modifier, and static methods with the static keyword. All abstract, default, and static methods in an interface are implicitly public, so you can omit the public modifier.
-
+Default methods are defined with the default modifier, and static methods with the static keyword. 
 In addition, an interface can contain constant declarations. All constant values defined in an interface are implicitly public, static, and final. Once again, you can omit these modifiers.
 
 
