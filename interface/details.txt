@@ -11,6 +11,8 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 { }
 Default methods are defined with the default modifier, and static methods with the static keyword. 
 In addition, an interface can contain constant declarations. All constant values defined in an interface are implicitly public, static, and final. Once again, you can omit these modifiers.
 
+An interface can extends another interface classes
+
 Differenece between Interface and Abstraction
 
 
