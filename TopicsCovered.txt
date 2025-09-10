@@ -23,3 +23,6 @@ MultiLevel Inhetitance
 09/02 : Assignment Discussion, Did live coding covering all the previously discussed topics
 09/03 : 2D Arrays, Jagged Arrays, Wrraper Classes, Introduction of Interface
 09/05 : Interface
+09/08 : Revision of the topics and Sample Array Program
+09/09 : Operators Revision and Assignment go through
+09/10 : Assignment go through, member and local inner class
