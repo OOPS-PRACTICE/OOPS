@@ -1,0 +1,13 @@
+Abstract vs Interface :
+
+1. Do you need to share Implementation or State ?
+- Use an "abstract class" if you have "common fields" and "default method implementation"
+- Use an "interface" if you only need to define "method signatures" without shared state or partial implementations.
+
+2. Single vs Multiple Inheritance :
+- A class cannot extend more than one super class (abstract or concrete), but it can implement multiple interface.
+- If your design calls for "mixing in" various behaviours (logging, monitoring, callbacks), interfaces often make sense.
+
+3. Flexibility and Substitutability:
+- Interfaces are better for creating "plug-in" architectures where many different classes can switch in and out for a given contract(like logging, payments, or compression)
+- Abstract classes excel when you need a "common foundation" (fields, helper methods) that all subclasses benefit from, typically in a controlled inheritance hierarchy.
