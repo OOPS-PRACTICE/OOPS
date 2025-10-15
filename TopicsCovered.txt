@@ -29,3 +29,8 @@ MultiLevel Inhetitance
 09/16 : Static , Method Inner Classes with Examples, Enum
 09/17 : Enum Examples, Memory Management, Java is Pass By Value ?
 09/19 : Pass By Value examples with the Primitive and Object. Assignment Review 
+09/23 : Disucssion on String and assignment
+09/24 : Disucssion on String and assignment
+10/10 : StringBuffer and StringBuilder
+10/14 : StringTokenizer , Exception, try\catch
+10/15 : Types of Exception, Exception Hierarchy, Errors
