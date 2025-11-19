@@ -33,5 +33,5 @@ MultiLevel Inhetitance
 09/24 : Disucssion on String and assignment
 10/10 : StringBuffer and StringBuilder
 10/14 : StringTokenizer , Exception, try\catch
-10/15 : Types of Exception, Exception Hierarchy, Errors
+10/15 : Types of Exception, Exception Hierarchy, Errors, CustomException
 Comparable, Memory Management,Collections,Arraylist,Linkedlist,HashMap,HashTable
